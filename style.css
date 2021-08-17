@@ -17,6 +17,10 @@ body.user-MENTOR .teacherUnitsStudentListItem-column.teacherUnitsStudentListItem
 body.user-MENTOR .teacherUnitsStudentListItem-column.teacherUnitsStudentListItem-graded,
 body.user-MENTOR .teacherUnitsStudentListItem-column.teacherUnitsStudentListItem-answered,
 body.user-MENTOR .teacherUnitsStudentListItem-column.teacherUnitsStudentListItem-completed,
+body.user-MENTOR .studentAssignmentsListItem-column.studentAssignmentsListItem-grade,
+body.user-MENTOR .studentAssignmentsListItem-column.studentAssignmentsListItem-points,
+body.user-MENTOR .studentAssignmentsListItem-column.studentAssignmentsListItem-graded,
+body.user-MENTOR .studentAssignmentsListItem-column.studentAssignmentsListItem-answered,
 body.user-MENTOR .plainLink.btn.assignmentHeader-actionsBtn,
 body.user-MENTOR .unitHeader-actions,
 body.user-MENTOR .assignmentInfo-simpleTabber li[aria-label="Settings"] {
