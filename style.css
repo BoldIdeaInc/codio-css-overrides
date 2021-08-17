@@ -23,6 +23,7 @@ body.user-MENTOR .studentAssignmentsListItem-column.studentAssignmentsListItem-g
 body.user-MENTOR .studentAssignmentsListItem-column.studentAssignmentsListItem-answered,
 body.user-MENTOR .plainLink.btn.assignmentHeader-actionsBtn,
 body.user-MENTOR .unitHeader-actions,
+body.user-MENTOR .teacherUnitsStudentListItem-column.teacherUnitsStudentListItem-actions li[role="menuitem"]:nth-child(3),
 body.user-MENTOR .assignmentInfo-simpleTabber li[aria-label="Settings"] {
   display: none !important;
 }
