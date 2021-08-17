@@ -42,3 +42,10 @@ body.user-MENTOR .teacherUnitsStudentListItem-column.teacherUnitsStudentListItem
 body.user-MENTOR .assignmentInfo-simpleTabber li[aria-label="Settings"] {
   display: none !important;
 }
+
+/* custom "Open Project" button */
+.teacherUnitsStudentListItem .btn.open-project {
+  white-space: nowrap;
+  padding: 0 8px;
+  cursor: pointer;
+}
