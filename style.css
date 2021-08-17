@@ -1,4 +1,4 @@
-/* Testing */
-.main .app .navigation {
-  background-color: #7b1fa2;
+/* hide "Join a Course" link */
+.navigation-menuItem a[href="/home/student/join"] {
+  display: none;
 }
