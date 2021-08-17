@@ -4,7 +4,8 @@
 @keyframes nodeInserted { from { opacity: 0.99; } to { opacity: 1; } }
 
 /* Elements to watch for */
-.coursesList.list-view .defaultCourseListItem {
+.coursesList.list-view .defaultCourseListItem,
+body.user-MENTOR .assignmentProgress-students-container.scrollable .teacherUnitsStudentListItem {
   animation-duration: 0.001s;
   animation-name: nodeInserted;
 }
