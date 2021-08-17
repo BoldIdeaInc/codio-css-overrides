@@ -7,6 +7,8 @@
 body.user-MENTOR .teacherUnitsStudentListItem-column.teacherUnitsStudentListItem-grade,
 body.user-MENTOR .teacherUnitsStudentListItem-column.teacherUnitsStudentListItem-points,
 body.user-MENTOR .teacherUnitsStudentListItem-column.teacherUnitsStudentListItem-graded,
-body.user-MENTOR .teacherUnitsStudentListItem-column.teacherUnitsStudentListItem-answered {
+body.user-MENTOR .teacherUnitsStudentListItem-column.teacherUnitsStudentListItem-answered,
+body.user-MENTOR .teacherUnitsStudentListItem-column.teacherUnitsStudentListItem-completed,
+body.user-MENTOR .assignmentInfo-simpleTabber li[aria-label="Settings"] {
   display: none !important;
 }
