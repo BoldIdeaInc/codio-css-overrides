@@ -9,6 +9,7 @@ body.user-MENTOR .teacherUnitsStudentListItem-column.teacherUnitsStudentListItem
 body.user-MENTOR .teacherUnitsStudentListItem-column.teacherUnitsStudentListItem-graded,
 body.user-MENTOR .teacherUnitsStudentListItem-column.teacherUnitsStudentListItem-answered,
 body.user-MENTOR .teacherUnitsStudentListItem-column.teacherUnitsStudentListItem-completed,
+body.user-MENTOR .plainLink.btn.assignmentHeader-actionsBtn,
 body.user-MENTOR .assignmentInfo-simpleTabber li[aria-label="Settings"] {
   display: none !important;
 }
