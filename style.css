@@ -4,7 +4,7 @@
 @keyframes nodeInserted { from { opacity: 0.99; } to { opacity: 1; } }
 
 /* Elements to watch for */
-.coursesList #react-tabs-1 div.list-group-container .defaultCourseListItem {
+.coursesList.list-view .defaultCourseListItem {
   animation-duration: 0.001s;
   animation-name: nodeInserted;
 }
