@@ -52,4 +52,7 @@ body.user-MENTOR .assignmentInfo-simpleTabber li[aria-label="Settings"] {
   white-space: nowrap !important;
   padding: 0 8px !important;
   cursor: pointer !important;
+  color: #fff !important;
+  background: #3574e3 !important;
+  border: none !important;
 }
