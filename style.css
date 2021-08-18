@@ -5,7 +5,7 @@
 
 /* Elements to watch for */
 .coursesList.list-view .defaultCourseListItem,
-body.user-MENTOR .assignmentProgress-students-container.scrollable .teacherUnitsStudentListItem {
+body.user-MENTOR .assignmentProgress-students-container.scrollable .teacherUnitsStudentListItem-actions {
   animation-duration: 0.001s;
   animation-name: nodeInserted;
 }
