@@ -13,6 +13,11 @@ body.user-MENTOR .assignmentProgress-students-container.scrollable .teacherUnits
 /**
  * Custom CSS overrides
  */
+/* ensure CSS is loading */
+body.user-ADMIN .navigation-avatarName {
+  color: red;
+}
+
 /* hide "Join a Course" link */
 .navigation-menuItem a[href="/home/student/join"] {
   display: none;
