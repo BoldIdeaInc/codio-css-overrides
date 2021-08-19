@@ -1,18 +1,3 @@
-/**
- * DOM insertion observer hack (see https://davidwalsh.name/detect-node-insertion) 
- */
-@keyframes nodeInserted { from { opacity: 0.99; } to { opacity: 1; } }
-
-/* Elements to watch for */
-.coursesList.list-view .defaultCourseListItem,
-body.user-MENTOR .assignmentProgress-students-container.scrollable .teacherUnitsStudentListItem-actions {
-  animation-duration: 0.001s;
-  animation-name: nodeInserted;
-}
-
-/**
- * Custom CSS overrides
- */
 /* hide "Join a Course" link */
 .navigation-menuItem a[href="/home/student/join"] {
   display: none;
