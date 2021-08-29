@@ -41,3 +41,8 @@ body.user-MENTOR .assignmentInfo-simpleTabber li[aria-label="Settings"] {
   background: #3574e3 !important;
   border: none !important;
 }
+
+/* fix custom script input box width */
+.organizationTab-customScript .savePanel-div {
+  max-width: 100%;
+}
