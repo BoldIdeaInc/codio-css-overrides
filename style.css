@@ -3,7 +3,7 @@
   display: none !important;
 }
 /* hide "Resources" link for non-admins */
-body[:not(.user-ADMIN)] .navigtation-menuItem a[href="https://www.codio.com/resources"] {
+body:not(.user-ADMIN) .navigtation-menuItem a[href="https://www.codio.com/resources"] {
   display: none !important;
 }
 
