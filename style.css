@@ -1,7 +1,12 @@
-/* hide "Join a Course" link */
+/* hide "Join a Course" link for everyone */
 .navigation-menuItem a[href="/home/student/join"] {
-  display: none;
+  display: none !important;
 }
+/* hide "Resources" link for non-admins */
+body[:not(.user-ADMIN)] .navigtation-menuItem a[href="https://www.codio.com/resources"] {
+  display: none !important;
+}
+
 
 /* hide certain elements from mentors */
 body.user-MENTOR .assignmentsTeachList-header th:nth-child(3),
